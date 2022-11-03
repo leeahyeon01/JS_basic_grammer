@@ -15,7 +15,7 @@ timeout(() => {
 // 콜백함수 예제2
 
 animal = ["rabbit", "tigger", "baer", "giraffe"];
-
+//arr.filter(callback(element[index]
 newword = animal.filter(Element => {
   return Element.length > 5;
 });
