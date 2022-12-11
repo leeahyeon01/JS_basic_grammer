@@ -11,9 +11,7 @@ function timer(time) {
 
 //timer 함수를 실행한뒤 성공하면 출력할 consol값 입력
 timer(1000).then(function (time) {
-  console.log("time" + time + "초 걸림
-  
-  
-  ");
+  console.log("time" + time + "초 걸림");
+
   timer();
 });
